@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bundle.js": {
+      "bowerJson": [
+        "bower.json"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/*.css"
+      ],
+      "bowerJson": [
+        "bower.json"
+      ],
+      "main": true
+    }
+  },
+  "paths": {
+    "source": "app/",
+    "dist": "dist/"
+  },
+  "config": {
+    "devUrl": "localhost:8000"
+  }
+}

@@ -1,0 +1,10 @@
+<div class="jumbotron text-center">
+	<h1>Home Page</h1>
+	
+	<p>{{ $ctrl.message }}</p>
+	<button ng-click="$ctrl.click()">TEST</button>
+</div>
+
+<div>
+	<ng-sankey id="sankeyChart" options="$ctrl.options" data="$ctrl.data"></ng-sankey>
+</div>

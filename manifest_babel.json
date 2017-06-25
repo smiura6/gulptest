@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/*.js"
+      ]
+    }
+  },
+  "paths": {
+    "source": "app/",
+    "dist": "dist/"
+  },
+  "config": {
+    "devUrl": "localhost:8000"
+  }
+}

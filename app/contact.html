@@ -1,0 +1,11 @@
+<div class="jumbotron text-center">
+	<h1>Contact Page</h1>
+
+	<p>{{ $ctrl.message }}</p>
+	<button ng-click="$ctrl.click()">TEST</button>
+</div>
+
+<div>
+	<canvas class="chart chart-line" chart-data="$ctrl.data" chart-labels="$ctrl.labels" chart-series="$ctrl.seriese" chart-dataset-override="$ctrl.datasets"
+	 chart-options="$ctrl.options" chart-click="$ctrl.onClick"/>
+</div>

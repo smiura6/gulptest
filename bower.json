@@ -1,0 +1,47 @@
+{
+  "name": "spa",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "miura <miura@acroquest.co.jp>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "backbone": "^1.3.3",
+    "lodash": "^4.17.4",
+    "angular-route": "^1.6.3",
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "angular-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.18.0",
+    "angular-momentjs": "^0.2.2",
+    "angular-chart.js": "^1.1.1",
+    "angular-jointjs-erd": "*",
+    "sankeyjs": "^1.2.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "./dist/css/bootstrap.css",
+        "./dist/js/bootstrap.js",
+        "./dist/fonts/glyphicons-halflings-regular.eot",
+        "./dist/fonts/glyphicons-halflings-regular.svg",
+        "./dist/fonts/glyphicons-halflings-regular.ttf",
+        "./dist/fonts/glyphicons-halflings-regular.woff"
+      ]
+    },
+    "angular-jointjs-erd": {
+      "main": "angular-joint-erd.js"
+    }
+  }
+}
